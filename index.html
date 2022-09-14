@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Aditya Awasthi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Raleway", sans-serif
+        }
+
+        body, html {
+            height: 100%;
+            line-height: 1.8;
+        }
+
+        /* Full height image header */
+        .bgimg-1 {
+            background-position: center;
+            background-size: cover;
+            background-image: url("https://media.discordapp.net/attachments/740803013802983467/1007532909437145149/Aditya_Awasthi.png?width=945&height=532"); 
+            min-height: 100%;
+        }
+
+        .w3-bar .w3-button {
+            padding: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-card" id="myNavbar">
+            <a href="#home" class="w3-bar-item w3-button w3-wide">ADITYA AWASTHI</a><img src="https://media.discordapp.net/attachments/740803013802983467/1007521266779041842/Code.jpg?width=584&height=584" alt="Aditya Awasthi LOGO" style="width:6%" height="59">
+            <!-- Right-sided navbar links -->
+            <div class="w3-right w3-hide-small">
+                <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+                <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-bars"></i> PROJECTS</a>
+                <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> FUTURE PROJECTS</a>
+                <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-book"></i> LEARN :)</a>
+                <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+            </div>
+            <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+        <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+        <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+        <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    </nav>
+
+    <!-- Header with full-height image -->
+    <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+        <div class="w3-display-left w3-text-black" style="padding:48px">
+
+            <span class="w3-jumbo w3-hide-small">Hello!</span><br>
+   
+            <span class="w3-large">I'm Aditya Awasthi</span><br>
+            <span class="w3-large">Wassup?!?!</span>
+            <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-bottom w3-opacity w3-hover-opacity-off">Let's start by my introduction!</a></p>
+        </div>
+        <div class="w3-display-bottomleft w3-text-dark w3-large" style="padding:24px 48px">
+            <a href="https://github.com/TheSimpleProgram"><i class="fa fa-github w3-hover-opacity"></i></a>
+            <a href="https://www.instagram.com/gondacaves/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <a href="https://twitter.com/Cute__Potato_"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/aditya-awasthi-5b610522b/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <div class="w3-container" style="padding:128px 16px" id="about">
+        <h3 class="w3-center">ABOUT ME</h3>
+        <p class="w3-center w3-large">Things I love to do</p>
+        <div class="w3-row-padding w3-center" style="margin-top:64px">
+            <div class="w3-quarter">
+                <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+                <p class="w3-large">Coding</p>
+                <p>Have a passion of coding since last 4 years, good with Python,HTML/CSS and little bit of Java.</p>
+            </div>
+            <div class="w3-quarter">
+                <i class="fa fa-book w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">Reading</p>
+                <p>Reading is one of my passions, love to read books. Started reading books 2 years ago, since then have read a ton of books.</p>
+            </div>
+            <div class="w3-quarter">
+                <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">Photo/Video Editing</p>
+                <p>Got an interest in editing since I enrolled in a competetion, have never stopped since.</p>
+            </div>
+            <div class="w3-quarter">
+                <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">Puzzles</p>
+                <p>Love to solve different kind of puzzles.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Promo Section - "We know design" -->
+    <div class="w3-container w3-light-grey" style="padding:128px 16px">
+        <div class="w3-row-padding">
+            <div class="w3-col m6">
+                <h3>Stuff coming soon.</h3>
+                <p> As a fellow homo sapien, I'm working on myself and here are the projects/ideas I'm working upon and will learn.<br>Do consider giving suggestion.</p>
+                <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Future Projects</a></p>
+            </div>
+            <div class="w3-col m6">
+                <img class="w3-image" src="https://media.discordapp.net/attachments/740803013802983467/1007541333604442112/Black_Minimalist_Initial_Font_BE_Logo.png" alt="Coming Soon" height="500" width="300">
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="w3-container" style="padding:128px 16px" id="team">
+        <h3 class="w3-center">Projects</h3>
+        <p class="w3-center w3-large">What I've done</p>
+        <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="https://images-ext-1.discordapp.net/external/bM_VaBrKEO69tTW7IMoBP5PBgS26fx-0F5wa8zbSl1A/https/cdn.arstechnica.net/wp-content/uploads/2021/05/itchio-logo-black.png?width=1440&height=360" alt="itch.io" style="width:100%">
+                    <div class="w3-container">
+                        <h3>itch.io</h3>
+                        <p class="w3-opacity">My Games</p>
+                        <p>I like to make games, these are the games made by me using python.</p>
+                        <p> <button onclick="location.href='https://adityaawasthi.itch.io/'" type="button" class="w3-button w3-light-grey w3-block"><i class="fa fa-"></i> Get my Games here! </p> </button>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="https://images-ext-1.discordapp.net/external/iDTk-IfsdXIQwqLw6AYxU_EpJVhHmdZWos4ofBUTzjY/https/geekflare.com/wp-content/uploads/2021/02/discordbot.png" alt="Discord Bot" style="width:100%" height="87">
+                    <div class="w3-container">
+                        <h3>Discord Bot</h3>
+                        <p class="w3-opacity">Working on making a discord bot (In Progress)</p>
+                        <p>Interested in making discord bots, Made a couple of them for fun.</p>
+                        <p> <button onclick="location.href='https://adityaawasthi.itch.io/'" type="button" class="w3-button w3-light-grey w3-block"><i class="fa fa-"></i> Get my bot here! </p> </button>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="https://media.discordapp.net/attachments/740803013802983467/1007522164058099772/121414087_-1.jpg?width=1440&height=478" alt=" Aditya Awasthi Website Banner " style="width:100%" height="87">
+                    <div class="w3-container">
+                        <h3>Website</h3>
+                        <p class="w3-opacity">Yep, This Website</p>
+                        <p>I do consider this as a project, and I love this website.</p>
+                        <p> <button onclick="location.href='https://adityaawasthi.itch.io/'" type="button" class="w3-button w3-light-grey w3-block"><i class="fa fa-"></i> Website! </p> </button>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="https://media.discordapp.net/attachments/740803013802983467/1007630658027388990/Black_Minimalist_Icon_Nerdy_Birthday_Card_-_1.png?width=1048&height=531" alt="PROJECT NOT FOUND" style="width:100%" height="87">
+                    <div class="w3-container">
+                        <h3>Project Not Found</h3>
+                        <p class="w3-opacity">Have nothing more to display yet. Working on more projects, will update the website.</p>
+                        <p> You can get in contact here for suggestions.</p>
+                        <p> <button onclick="location.href='https://www.linkedin.com/in/aditya-awasthi-5b610522b/'" type="button" class="w3-button w3-light-grey w3-block"><i class="fa fa-"></i> Linkedln </p> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Promo Section "Statistics" -->
+    <div class="w3-container w3-padding-64 w3-dark-grey w3-center">
+        <h1 class="w3-jumbo"><b>Stuff I'm good at (Apps/Websites)</b></h1>
+        <p>This app is just so lorem ipsum.</p>
+
+        <div class="w3-row w3-large" style="margin-top:64px">
+            <div class="w3-col s3 image">
+                <a href=""><img src="https://media.discordapp.net/attachments/740803013802983467/1008262594433392650/images-removebg-preview_1.png" width="250" height="250" alt="Visual Stuido 2020"></a>
+                <p>Visual Stuido 2020 for HTML/CSS and Python</p>
+            </div>
+            <div class="w3-col s3">
+                <a href=""><img src="https://media.discordapp.net/attachments/740803013802983467/1008260433829965834/download-removebg-preview_4.png" width="250" height="250" alt="PyCharm"></a>
+                <p>PyCharm for Python</p>
+            </div>
+            <div class="w3-col s3">
+                <a href=""><img src="https://media.discordapp.net/attachments/740803013802983467/1008257304237441024/unknown.png" width="250" height="250" alt="Photoshop"></a>
+
+                <p>Photoshop for Photo Editing</p>
+            </div>
+            <div class="w3-col s3">
+                <a href=""><img src="https://media.discordapp.net/attachments/740803013802983467/1008258359847292988/download-removebg-preview_6.png" width="250" height="250" alt="Unity"></a>
+                <p>Unity for game development</p><p>(Not so good at it!)</p>
+            </div>
+        </div>
+
+        <div class="w3-row w3-dark-grey w3-large" style="margin-top:64px">
+            <div class="w3-col s3">
+                <a href=""><img src="https://media.discordapp.net/attachments/740803013802983467/1008263603092193320/unknown_5.png" width="250" height="250" alt="Adobe Premiere Pro"></a>
+                <p>Adobe Premiere Pro for video editing.</p>
+            </div>
+            <div class="w3-col s3">
+                <a href=""><img src="https://media.discordapp.net/attachments/740803013802983467/1008259006961287249/unknown.png" width="250" height="250" alt="Salad.io"></a>
+                <p>Salad.io for farming crypto </p>
+            </div>
+            <div class="w3-col s3">
+                <a href=""><img src="https://media.discordapp.net/attachments/740803013802983467/1008259071612289074/download-removebg-preview_7.png" width="250" height="250" alt="Krita"></a>
+
+                <p>Krita for graphic designing.</p>
+            </div>
+            <div class="w3-col s3">
+                <a href=""><img src="https://media.discordapp.net/attachments/740803013802983467/1008265026055979039/unknown_6.png" width="250" height="250" alt="Blender"></a>
+
+                <p>Blender for 3D designing.</p>
+            </div>
+        </div>
+
+    <!-- Work Section -->
+    <div class="w3-container w3-light-grey" style="padding:128px 16px" id="work">
+        <h3 class="w3-center">Future Projects</h3>
+        <p class="w3-center w3-large">Stuff left for procastinating</p>
+
+        <div class="w3-row-padding" style="margin-top:64px">
+            <div class="w3-col l3 m6">
+                <img src="https://media.discordapp.net/attachments/740803013802983467/1007544381160558692/Blue_Black_Modern_Coding_Bootcamp_Facebook_Banner.jpg?width=1063&height=531" style="width:102%" onclick="onClick(this)" class="w3-hover-opacity" alt="I gotta improve coding">
+            </div>
+            <div class="w3-col l3 m6">
+                <img src="https://media.discordapp.net/attachments/740803013802983467/1007549921794215957/White_Minimalist_Back_to_School_Coming_Soon_Instagram_Post_1.png?width=945&height=532" style="width:90%" onclick="onClick(this)" class="w3-hover-opacity" alt="I gotta study and all, get some good grades and all, #FORMIT atleast">
+            </div>
+            <div class="w3-col l3 m6">
+                <img src="https://media.discordapp.net/attachments/740803013802983467/1007546542779007027/Navy_White_and_Black_Neon_Retro_Zoom_Virtual_Background.png?width=945&height=532" style="width:90%" "width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Animation or drawning">
+            </div>
+            <div class="w3-col l3 m6">
+                <img src="https://media.discordapp.net/attachments/740803013802983467/1007552246214569994/Green_Nature_Instagram_Post_1.png?width=945&height=532" style="width:90%" onclick="onClick(this)" class="w3-hover-opacity" alt="SOCIALIZE PPL U GUYS NEED IT!">
+            </div>
+            <br />
+            <br />
+            <br />
+        </div>
+        <p class="w3-center w3-hide-small">PLEASE CLICK IMAGE TO OPEN FULL IMAGE, I CANT DEAL WITH RESOLUTIONS AAAAA</p>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="w3-container w3-light-grey w3-padding-64">
+        <div class="w3-row-padding">
+            <div class="w3-col m6">
+                <h3>My  Skills.</h3>
+                <p>
+                    These are the things I am good and is working to develop more skills. I will keep on learning.
+                </p>
+                <p>
+                    <i>*ps I always wanted this section in my website so added it.</i>
+                </p>
+            </div>
+            <div class="w3-col m6">
+                <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Coding</p>
+                <div class="w3-grey">
+                    <div class="w3-container w3-dark-grey w3-center" style="width:40%">40%</div>
+                </div>
+                <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Video/Photo Editing (Graphic Designing)</p>
+                <div class="w3-grey">
+                    <div class="w3-container w3-dark-grey w3-center" style="width:30%">30%</div>
+                </div>
+                <p class="w3-wide"><i class="fa fa-book w3-margin-right"></i>Writting</p>
+                <div class="w3-grey">
+                    <div class="w3-container w3-dark-grey w3-center" style="width:30%">30%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pricing Section -->
+    <div class="w3-row w3-container">
+        <div class="w3-center w3-padding-64" id="pricing">
+            <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">How to Learn 101</span>
+        </div>
+        <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
+            <h3>Coding</h3>
+            
+            <p> Here are the sources I used for learning Coding <a href="https://www.google.com/search?q=error+404+not+found&tbm=isch&hl=en&sa=X&ved=2ahUKEwiV7v764MX5AhWCF7cAHeaaDVUQBXoECAEQWg&biw=1519&bih=654" title="ill update it i promise" target="_blank" class="w3-hover-text-green">No Virus Trust me (Coming Soon)</a></p>
+
+        </div>
+
+        <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
+            <h3>Graphic Designing</h3>
+            <p> Here are the sources I used for learning Graphic Designing <a href="https://www.google.com/search?q=error+404+not+found&tbm=isch&hl=en&sa=X&ved=2ahUKEwiV7v764MX5AhWCF7cAHeaaDVUQBXoECAEQWg&biw=1519&bih=654" title="ill update it i promise" target="_blank" class="w3-hover-text-green">No Virus Trust me (Coming Soon)</a></p>
+        </div>
+
+        <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
+            <h3>Video/Photo Editing</h3>
+            <p> Here are the sources I used for learning Editing <a href="https://www.google.com/search?q=error+404+not+found&tbm=isch&hl=en&sa=X&ved=2ahUKEwiV7v764MX5AhWCF7cAHeaaDVUQBXoECAEQWg&biw=1519&bih=654" title="ill update it i promise" target="_blank" class="w3-hover-text-green">No Virus Trust me (Coming Soon)</a></p>
+        </div>
+
+        <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
+            <h3>Reading/Writing</h3>
+            <p> Here are the sources I used for learning Reading/Writing <a href="https://www.google.com/search?q=error+404+not+found&tbm=isch&hl=en&sa=X&ved=2ahUKEwiV7v764MX5AhWCF7cAHeaaDVUQBXoECAEQWg&biw=1519&bih=654" title="ill update it i promise" target="_blank" class="w3-hover-text-green">No Virus Trust me (Coming Soon)</a></p>
+            
+        </div>
+        <br>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+        <h3 class="w3-center">CONTACT</h3>
+        <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+        <div style="margin-top:48px">
+            <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> World</p>
+            <p><i class="fa fa-linkedin fa-fw w3-xxlarge w3-margin-right"></i> <a href="https://www.linkedin.com/in/aditya-awasthi-5b610522b/" title="Contact me here ;)" target="_blank" class="w3-hover-text-green">Linkedln</a></p>
+            
+            <br>
+            <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+                <p>
+                    <button class="w3-button w3-black" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                </p>
+            </form>
+            <!-- Image of location/map -->
+            <img src="https://wallpaperforu.com/wp-content/uploads/2021/02/Wallpaper-City-Lights-Shiodome-City-Center-Japan-Tokyo35960x544.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+            <a href="https://github.com/TheSimpleProgram"><i class="fa fa-github w3-hover-opacity"></i></a>
+            <a href="https://www.instagram.com/gondacaves/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <a href="https://twitter.com/Cute__Potato_"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/aditya-awasthi-5b610522b/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        </div>
+        <p>Get a <a href="https://www.urbandictionary.com/define.php?term=life" title="life" target="_blank" class="w3-hover-text-green">life</a></p>
+
+        <p> the second definition i love it</p>
+
+        <p>Use this extension and turn dark mode for better experience -  <a href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh" title="Its a google extension page dont worry " target="_blank" class="w3-hover-text-green">Its a google extension page dont worry</a></p>
+    </footer>
+
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+
+
+        // Toggle between showing and hiding the sidebar when clicking the menu icon
+        var mySidebar = document.getElementById("mySidebar");
+
+        function w3_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
+            } else {
+                mySidebar.style.display = 'block';
+            }
+        }
+
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
